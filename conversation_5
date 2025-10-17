@@ -1,0 +1,16 @@
+Tool: ChatGPT
+Date: 17-10-2025
+
+Validating user input with pyinputplus
+
+Me: I want to make sure users enter a valid menu option for my Weather Advisor. Is pyinputplus better than input()?
+AI: Yes. PyInputPlus automatically validates input, and you can restrict allowed values using inputChoice.
+
+Me: What if they type letters when numbers are expected?
+AI: PyInputPlus will re-prompt them until a valid choice is entered, preventing crashes.
+
+Me: Can I set a timeout or default value?
+AI: Yes. For example, pyip.inputChoice(['1','2','3'], timeout=10, default='1') will select option 1 if no input is given within 10 seconds.
+
+Intentional Prompting:
+You ensured the input method is robust and user-friendly for your menu system, avoiding invalid inputs during testing.
