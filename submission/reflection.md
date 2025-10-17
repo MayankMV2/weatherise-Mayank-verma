@@ -1,16 +1,15 @@
 # ✍️ Project Reflection
 
 ## AI Tools Used
-What tools did you use (e.g., ChatGPT, Copilot)? How did they help?
+For this project, I primarily used ChatGPT to support multiple aspects of the Weather Advisor application. ChatGPT helped me in generating Python code for fetching weather data from the wttr.in API, creating visualization functions for temperature, precipitation, wind, and humidity, and improving the structure of my main menu system. Additionally, ChatGPT assisted in designing error handling for network issues and invalid API responses, ensuring the program could recover gracefully from exceptions. Using ChatGPT accelerated the development process, allowing me to focus on understanding logic and refining the user interface rather than spending excessive time debugging syntax or figuring out API endpoints.
 
 ## Prompting Techniques
-Which intentional prompting strategies did you apply?
+I applied several intentional prompting strategies while interacting with ChatGPT. First, I used incremental prompting, breaking complex tasks into smaller, specific requests, such as asking for a pseudocode version of the weather-fetching function before requesting the full Python implementation. Second, I leveraged iterative refinement, where I provided feedback on initial outputs, asking the AI to improve error handling, adjust graph styles, or make code more user-friendly. Third, I used scenario-based prompts, presenting the AI with realistic testing conditions, such as simulating network errors or asking how to validate user input with PyInputPlus. These strategies helped me extract precise, context-aware responses that were directly applicable to my project.
 
 ## What Worked Well?
-Describe one thing you’re proud of.
+One aspect I’m particularly proud of is the robustness and interactivity of the menu system. By combining PyInputPlus input validation with properly structured graph functions, I created a program where users can navigate seamlessly between options, ask questions, and view multiple visualizations without encountering input errors or program crashes. I also successfully implemented multiple visualization techniques, including scatter plots, line plots, bar charts, and circle-size plots, making the weather data more engaging and easier to interpret.
 
 ## What Would You Do Differently?
-Describe one thing you'd change if you had more time.
-
+If I had more time, I would enhance the project by integrating a more interactive plotting library, such as Plotly, to allow users to hover over data points, zoom in on graphs, and explore trends dynamically. While matplotlib provided all the basic functionality I needed, interactive graphs could improve the user experience significantly and allow more flexibility for analyzing weather data. Additionally, I would refine the natural language parsing to detect city names automatically without always requiring user input, using basic NLP techniques or a city database.
 ## Final Thoughts
-Any parting comments on your learning experience?
+Overall, this project was an excellent opportunity to combine Python programming, API integration, and data visualization while leveraging AI as a collaborative coding assistant. Using ChatGPT effectively taught me how to prompt intentionally, iteratively improve outputs, and critically evaluate AI-generated code. I gained not only technical skills but also insights into how AI can complement human problem-solving in real-world programming projects. This experience reinforced the importance of planning, testing, and refining code iteratively, and I feel more confident tackling complex programming tasks in the future.
