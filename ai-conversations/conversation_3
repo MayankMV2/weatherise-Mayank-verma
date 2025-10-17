@@ -1,0 +1,16 @@
+Tool: ChatGPT
+Date: 17-10-2025
+
+Simulating weather API failures
+
+Me: How can I test my code if the API returns a 404 or invalid data?
+AI: Use Python’s unittest.mock to simulate API responses. For example, mock requests.get to return a 404 response or invalid JSON.
+
+Me: Will my code break if I don’t handle exceptions?
+AI: Yes. Without try/except, a 404 or network error will raise an exception and stop the program. Proper error handling ensures it continues gracefully.
+
+Me: Should I inform the user if data is unavailable?
+AI: Definitely. Print a user-friendly message like “Weather data unavailable. Please try again later.”
+
+Intentional Prompting:
+The goal was to add reliability to your API calls and ensure user experience remains smooth despite network errors.
