@@ -1,0 +1,16 @@
+Tool: ChatGPT
+Date: 17-10-2025
+
+Exploring alternative Python plotting libraries
+
+Me: Is there a better Python library than matplotlib for making interactive weather graphs?
+AI: Yes, libraries like Plotly or Bokeh can create interactive charts where users can hover over points, zoom in/out, and see real-time updates.
+
+Me: Would using Plotly complicate my assignment?
+AI: Not much. Plotly has a similar API to matplotlib. The main difference is that you may need to install it (pip install plotly) and call fig.show() instead of plt.show().
+
+Me: Should I switch to Plotly or stick to matplotlib for my assignment?
+AI: For a student project, matplotlib is sufficient. If you want interactivity as a bonus feature, you could try Plotly.
+
+Intentional Prompting:
+The goal was to explore interactive plotting options and weigh simplicity versus advanced features. You prompted the AI to ensure the recommendation fits the project scope.
