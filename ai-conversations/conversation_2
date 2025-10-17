@@ -1,0 +1,16 @@
+Tool: ChatGPT
+Date: 17-10-2025
+
+Parsing natural language questions
+
+Me: How can I improve my parse_weather_question function to handle questions like “Will it rain tomorrow in Sydney?”
+AI: You can use regular expressions to detect keywords like rain, temperature, humidity, and match time periods like today, tomorrow, day after tomorrow.
+
+Me: Can I also detect city names without always asking “in CITY”?
+AI: Yes, by maintaining a list of possible cities or using NLTK named entity recognition. For simplicity, asking the user for a city if it’s missing works fine.
+
+Me: Is it okay to default to a city if the user doesn’t specify one?
+AI: Yes, defaulting to a known city like “Perth” is reasonable for a small assignment.
+
+Intentional Prompting:
+You wanted to ensure your function handles natural language robustly while keeping it beginner-friendly.
