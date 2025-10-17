@@ -1,0 +1,16 @@
+Tool: ChatGPT
+Date: 17-10-2025
+
+Choosing between horizontal bar vs vertical bar for precipitation
+
+Me: Should I use horizontal bars or vertical bars for my rainfall visualization?
+AI: Vertical bars are standard for time series, showing date on x-axis and rainfall on y-axis. Horizontal bars can be used if date labels are too long or you want a rotated layout.
+
+Me: What if I want to highlight heavy rainfall days?
+AI: You can change the color of bars based on rainfall value or use a circle-size plot to make heavy rain visually larger.
+
+Me: Is that better than using a simple bar chart?
+AI: Yes, it makes it easier for users to notice trends without reading numbers.
+
+Intentional Prompting:
+You wanted a visual design that communicates rainfall intensity clearly, prompting the AI to provide design tips.
