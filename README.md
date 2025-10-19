@@ -55,6 +55,6 @@ We have three options for viwing the weather data in visuals
 - Wind Speed Visuals for your city (Bar Graph + Scatter)
 
 ## Project Structure
-<img width="237" height="630" alt="image" src="https://github.com/user-attachments/assets/86d81afe-7b17-4552-8d17-f827a623853c" />
+<img width="216" height="656" alt="image" src="https://github.com/user-attachments/assets/228c7d54-3b48-45de-8241-ecc468e27eaa" />
 
 A project by Mayank Verma (23281781)for the Programming Assesment for Curtin University.
